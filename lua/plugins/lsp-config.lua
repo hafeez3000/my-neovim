@@ -29,6 +29,12 @@ return {
       lspconfig.phpactor.setup({
         capabilities = capabilities
       })
+      lspconfig.psalm.setup({
+        capabilities = capabilities
+      })
+      lspconfig.intelephense.setup({
+        capabilities = capabilities
+      })
       lspconfig.pyright.setup({
         capabilities = capabilities
       })
